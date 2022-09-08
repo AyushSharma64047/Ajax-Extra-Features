@@ -1,5 +1,5 @@
 {
-    "name": "ᗩᒍᗩ᙭",
+    "name": "Autofilterzpyrobot",
     "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
     "logo": "https://telegra.ph/file/1b837a8df2670b0097aaf.jpg",
     "stack": "container",
@@ -20,20 +20,20 @@
     "repository": "https://github.com/Aadhi000/Ajax",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "5527478253:AAH5Bmmnv9hNpGQASZMEZZj-igdUyC95RaA",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "9323694",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "34a0b2551aacd866c3729f7044525353",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "required": false
+            "required": true
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
@@ -41,7 +41,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "required": false
+            "required": true
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
@@ -57,7 +57,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
+            "required": true
         },   
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True False)",
@@ -68,7 +68,7 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI.",
+            "description": "mongodb+srv://Ayush:Ayush@cluster1.bx09sol.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
@@ -82,12 +82,12 @@
         },
         "CACHE_TIME": {
             "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
-            "value": "300",
+            "value": "30",
             "required": false
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "OpusTechz",
+            "value": "blackest_harbour",
             "required": false
         },
         "IMDB": {
@@ -100,12 +100,12 @@
         },
         "SINGLE_BUTTON": {
             "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
-            "value": "True",
+            "value": "False",
             "required": false
         },
         "P_TTI_SHOW_OFF": {
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
-            "value": "True",
+            "value": "False",
             "required": false
         }
     },
